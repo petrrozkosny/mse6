@@ -1,0 +1,30 @@
+Kalkulovane miry (nebudeme vizualizovat)
+
+- Suma obyvatel za Cesko v roce 2015
+- Suma obyvatel za Cesko v maximálním roce
+
+Kalkulované míry (bude v kontingenční tabulce)
+Kontingenční tabulka:
+Řádky:
+- zeme, rok
+- hodnoty:
+	- suma obyvatel v dané zemi a daném roce
+	- podíl obyvatel dané země v daném roce na podílu obyvatel dané země ve všech letech
+	- podíl obyvatel dané země v daném roce na podílu obyvatel všech zemí v daném roce
+	- meziroční rozdíl populace dané země v daném roce
+
+Kontingenční tabulka ze 'zakladni ukazatele' a průřez z 'Dim Zeme'
+- řádky: rok
+- hodnoty
+	- suma populace v daném roce za uživatelem vybranou zemi
+	- podíl populace v daném roce za uživatelem vybranou zemi na sumě populace v daném roce
+		za všechny země
+	- suma populace v daném roce - ignorujeme uživatelem zvolený filtr
+
+BONUS:
+ - Max. Rok maximální populace v ČR (tj. spočítat maximální populaci a k ní potom rok)
+ - Power Query:
+	- kalkulovany sloupec "typ zeme": pokud je pocet obyvatel >=10 000 000 tak "velka zeme", jinak "mala zeme"
+	- vytvorit dotaz Dim Roky - tj. unikatni hodnoty ve sloupci Rok
+	- vytvorit kopii 'zakladni ukazatele', ponechat pouze sloupce Zeme, Rok - nasledne upravit tak, aby dotaz byl
+		pouze jako pripojeni, tj. nenacital se do Power Pivot

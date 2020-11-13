@@ -1,0 +1,33 @@
+Přejmenovat dotaz na 'MSFT'
+Ponechat pouze sloupce: Date (datum), Close (desetinné číslo)
+Vytvořit index Dim Date: unikátní hodnoty ze sloupce Date (datum)
+
+Power Pivot:
+Kalkulované míry:
+- maximální hodnota Date
+- rozdíl mezi Close v posledním dnu a Close v prvním dnu
+- rozdíl mezi Close v posledním dnu a Close v předposledním dnu
+- max Date maximálního kurzu (tj. datum, kdy bylo nejvyšší Close)
+
+Kalkulovaný sloupec:
+- rok z Date
+- měsíc z Date
+- den z Date
+- podmíněný sloupec "letos", pokud se datum nachází v roce dneška, jinak ""
+
+Zhodnocení v % od začátku roku, tj. 
+kurz prvního dne letoška vs. kurz posledního dne letoška
+
+Zhodnocení v % meziročně, tj.
+kurz posledního dne a stejného dne předchozího roku
+
+Rozdíl ve zhodnocení od začátku roku letoška a zhodnocení od začátku
+roku vloni za stejné období
+
+
+Kontingenční tabulka a průřez dim datum
+
+- hodnoty:
+	- rozdíl mezi Close mezi minimálním dnem průřezu a maximálním dnem průřezu
+
+

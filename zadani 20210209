@@ -14,3 +14,24 @@ o	Měsíc z [Date] – funkce MONTH()
 -	Tabulka data:
 o	Rok: Přes relaci se zeptat na Rok z tabulky Index Datum
 o	Měsíc: Přes relace se zeptat na Měsíc z tabulky Index datum
+
+
+Vytvořit kalkulovanou míru:
+
+- Maximální denní srážky
+- Poslední den maximálních denních srážek
+- Rozdíl mezi maximálními denními srážkami v TURANY a KOSICE
+
+Kontingenční tabulka:
+- Řádky: index datum[Rok]
+- Hodnoty:
+  - rozdíl mezi nejvyšší TMAX a nejnižší TMAX v daném roce
+  - suma srážek v daném roce
+  - rozdíl v sumě srážek v daném roce a předchozím roce
+  
+ Kontingenční tabulka + slicer
+ - Slicer: index lokalit[NAME]
+ - Hodnoty:
+  - Suma PRCP za danou lokalitu / suma srážek za všechny lokality
+  - Rozdíl v max TMAX dané lokality a max TMAX dané lokality a rok 2015
+ 

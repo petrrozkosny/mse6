@@ -1,0 +1,16 @@
+Ze souborů ve složce „sloupce“ vytvořit dotazy, ty potom spojit (dle nejlepšího vědomí a svědomí) do dotazu „data“.
+Vytvořit dotaz „index datum“, kde budou unikátní hodnoty ze sloupce data[DATE]
+NAHRÁT DATA DO POWER PIVOT
+Propojit relacemi tabulky
+-	index datum – data
+-	index lokalit – data
+-	index datum – srazky
+-	index datum – teploty
+
+Kalkulované sloupce:
+-	Tabulka Index datum
+o	Rok z [Date]
+o	Měsíc z [Date] – funkce MONTH()
+-	Tabulka data:
+o	Rok: Přes relaci se zeptat na Rok z tabulky Index Datum
+o	Měsíc: Přes relace se zeptat na Měsíc z tabulky Index datum

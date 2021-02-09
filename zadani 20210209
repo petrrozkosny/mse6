@@ -33,9 +33,12 @@ Kontingenční tabulka:
  - Slicer: index lokalit[NAME]
  - Hodnoty:
   - Suma PRCP za danou lokalitu / suma srážek za všechny lokality
+  
+  
+  
   - Rozdíl v max TMAX dané lokality a max TMAX dané lokality a rok 2015
   
-  
+  =======================================================================
   BONUS:
   Kontingenční graf + slicery
   Slicer1: Index datum[Rok]
@@ -45,6 +48,13 @@ Kontingenční tabulka:
     hodnoty:
      Průměr z data[TMAX] v daném měsíci
      Průměr z data[TMAX] za celý rok (tj. ignorujeme daný měsíc, ale neignorujeme rok zvolený ve sliceru)
+     
+Kontingenční graf + slicer
+Slicer: Index lokalit [Name]
+Graf:
+  osa x: index datum [Rok],index datum [Měsíc]
+  hodnoty: kumulativní srážky
+  
      
   
   

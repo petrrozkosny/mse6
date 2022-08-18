@@ -1,0 +1,22 @@
+1. Připojte pod sebe dotazy "zakladni ukazatele - nove" a "zakladni ukazatele historicke".
+Pozn. připojení proveďte do nového dotazu, který bude pojmenován "data"
+2. Slučte dotaz "data" a "průměrné věky" tak, aby v data byly zobrazeny informace o průměrném věku.
+Pozn. spojení zleva
+3. Nahrajte pouze dotaz data jako Excel tabulku s tím, že data budou rovněž importována do datového modelu.
+4. Z dat v datovém modelu vytvořte kontingenční tabulku
+- řádky: Rok
+Dopočítejte kalkulované míry:
+5. Suma [Pocet obyvatel] v daném roce
+6. Suma [Pocet obyvatel] v předchozím roce
+7. Suma [Pocet obyvatel] v daném roce pro zemi Cesko
+8. Suma [Pocet obyvatel] v předchozím roce pro zemi Cesko
+9. Suma [Pocet obyvatel] v daném roce pro Zemi Cesko a Zemi Slovensko
+
+10. Vytvořte novou kontingenční tabulku
+- řádky: Země
+Dopočítejte kalkulované míry
+11. Suma [Pocet obyvatel] v maximálním roce dané Země
+12. Suma [Pocet obyvatel] v maximálním roce celého datasetu
+13. Maximální [Pocet obyvatel] v dané Zemi
+
+

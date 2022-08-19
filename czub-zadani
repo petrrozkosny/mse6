@@ -43,3 +43,24 @@ Dopočítat kalkulované míry:
 10. Vizuál typu tabulka (nebude ovlivňována ostatními vizuály)
 - Rok
 11. Kumulativní maximum [Pocet obyvatel] pro Zeme = Cesko
+
+
+1. Vytvořit tabulku dim datumy s unikátními hodnotami ze sloupce
+data[Date]
+2. Do tabulky dim datumy dopočítat sloupce:
+	- Rok
+	- Čtvrtletí
+	- Měsíc
+	- Den
+3. Do tabulky dim datumy dopočítat sloupec "pololetí", tj. pokud
+je měsíc <= 6, tak "první pololetí", jinak "druhé pololetí"
+4. Vizuál typu tabulka s hodnotami
+- dim datumy[Rok]
+- suma data[PRCP] v daném roce
+- suma data[PRCP] v daném roce pro name = "RUZYNE"
+
+BONUS:
+Sloupcový graf zobrazující kumulativní sumu v Ruzyne v jednotlivých měsících
+maximálního roku pro lokalitu RUZYNE.
+
+Vyhodnocení 13:20

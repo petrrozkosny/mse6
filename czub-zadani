@@ -20,3 +20,26 @@ Dopočítejte kalkulované míry
 13. Maximální [Pocet obyvatel] v dané Zemi
 
 
+
+1. Vizuál typu průřez se sloupcem data[Zeme], omezení výběru na jediný výběr
+2. Sloupcový graf:
+- osa x: Rok
+- osay : Maximum počet obyvatel
+3. Pokud je maximální počet obyvatel v daném roce pro danou zemi maximálním počtem obyvatel
+v dané zemi za všechny roky, tak zelená barva
+
+Vizuál typu tabulka s hodnotami
+- Rok
+Dopočítat kalkulované míry:
+4. Suma obyvatel v daném roce a dané zemi (viz průřez)
+5. Meziroční suma počet obyvatel v dané zemi
+6. Pokud je hodnota z bodu 5 menší než 0, tak barva písma červená, jinak barva písma černá
+
+7. Vizuál typu koláčový graf, který zobrazuje
+- Země
+8. Suma počet obyvatel v maximálním roce celého datasetu
+9. Koláčový graf není ovlivňován žádným jiným vizuálem na stránce
+
+10. Vizuál typu tabulka (nebude ovlivňována ostatními vizuály)
+- Rok
+11. Kumulativní maximum [Pocet obyvatel] pro Zeme = Cesko
